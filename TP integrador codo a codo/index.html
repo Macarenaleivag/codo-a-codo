@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Integrador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header id="cabecera">
+        <img id="img1" src="imagenes/codoacodo.png" alt="">
+        <div id="p1">Conf Bs As</div>
+        <button type="button" class="btn btn-outline-dark b1">La conferencia</button>
+        <button type="button" class="btn btn-outline-secondary b2">Los oradores</button>
+        <button type="button" class="btn btn-outline-secondary b2">El lugar y la fecha</button>
+        <button type="button" class="btn btn-outline-secondary b2">Conviértete en orador</button>
+        <button type="button" class="btn btn-outline-secondary b3">Comprar tickets</button>
+    </header>
+    <div id="caja1">
+        <img id="img2" src="imagenes/hawaii.jpg" alt="">
+        <div id="p2"><h4>Conf Bs As</h4></div>
+        <div id="p3">Bs As llega por primera vez a Argentina. Un evento para compartr en nuestra comunidad el conocimiento y la experiecia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores del primer nivel que tenemos para ti. Te esperamos</div>
+        <button type="button" class="btn btn-outline-secondary b4">Quiero ser orador</button>
+        <button type="button" class="btn btn-success b5">Comprar tickets</button>
+    </div>
+    <div id="caja2">
+        <div class="p4">CONOCE A LOS <b class="n1">ORADORES</b></div>
+
+        <div class="card">
+            <img src="imagenes/steve.jpg" class="card-img-top img3" alt="...">
+            <div class="card-body">
+              <button type="button" class="btn btn-warning b6"><b class="nn1">Javascript</b></button>
+               <button type="button" class="btn btn-primary b7"><b>React</b> </button>
+              <h5 class="card-title">Steve Jobs</h5>
+              <p class="card-text t2">Loren ipsum dolor sit amet, consectetur adipisicing elit. Es voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellant ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>      
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="imagenes/bill.jpg" class="card-img-top img3" alt="...">
+            <div class="card-body">
+              <button type="button" class="btn btn-warning b6"><b class="nn1">Javascript</b></button>
+               <button type="button" class="btn btn-primary b7"><b>React</b> </button>
+              <h5 class="card-title">Bill Gates</h5>
+              <p class="card-text t2">Loren ipsum dolor sit amet, consectetur adipisicing elit. Es voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellant ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+              
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagenes/ada.jpeg" class="card-img-top img3" alt="...">
+            <div class="card-body">
+              <button type="button"class="btn btn-secondary b6"><b class="nn1">Negocios</b></button>
+               <button type="button"class="btn btn-danger b8"><b>Startups</b></button>
+              <h5 class="card-title">Ada Lovelace</h5>
+              <p class="card-text t2">Loren ipsum dolor sit amet, consectetur adipisicing elit. Es voluptatibus perferendis deleniti, totam fuga sequi iste! Facilis explicabo repellant ut similique incidunt? Ullam nobis beatae, corporis facilis veniam magni ratione!</p>
+            </div>
+          </div>    
+    </div>
+    <section>
+    <div id="caja3"></div>
+    <div class="conteiner-fluid"></div>
+    <div class="row"></div>
+    <div class="col-6">
+      <img src="imagenes/honolulu.jpg" id="img4">
+    </div>
+    <div id="caja3_1"></div>
+    <h4 id="h5_2">Bs As- Octubre</h4>
+    <p id="p5">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es las más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km2  de superficie).</p>
+    <a class="btn btn-primary enlace" href="#" role="button">Conocé más</a>
+   </section>
+   <section>
+    <div id="caja4">
+      <div class="c4">CONVÍERTETE EN UN <b class="n2">ORADOR</b></div>
+      <p id="p6">Anótate como orador para dar una <span id="s4">charla ignite</span>. Cúentanos de que quieres hablar!</p>
+      
+  
+        <form action="#">
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre" required minlength="3" maxlength="20" class="form-control">
+          <input type="text" name="apellido" id="apellido" placeholder="Apellido"class="form-control" >
+          <textarea name="consulta" id="consulta"  rows="3" placeholder="Sobre qué quieres hablar?" class="form-control"></textarea>
+          <p id="p7">Recuerda incluir un título para tu charla</p>
+          <input type="submit" value="Enviar" class="btn bt_black boton">
+      </form>
+    
+      
+    </div>
+   </section>
+   <footer id="pie">
+    <button type="button" class="btn btn-outline-dark b10">Preguntas frecuentes</button>
+    <button type="button" class="btn btn-outline-dark b11">Contáctanos</button>
+    <button type="button" class="btn btn-outline-dark b11">Prensa</button>
+    <button type="button" class="btn btn-outline-dark b11">Conferencias</button>
+    <button type="button" class="btn btn-outline-dark b11">Términos y condiciones</button>
+    <button type="button" class="btn btn-outline-dark b11">Privacidad</button>
+    <button type="button" class="btn btn-outline-dark b11">Estudiantes</button>
+    
+
+   </footer>
+</body>
+</html>
